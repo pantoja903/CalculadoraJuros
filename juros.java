@@ -15,5 +15,23 @@ public class juros {
         System.out.println("\n\t\t\t -- Calculadora Juros --\n");
 
         //Entrada
+        System.out.print("Digite o Capital: ");
+        Capital = entrada.nextDouble();
+        System.out.print("Digite a Taxa: ");
+        Taxa = entrada.nextDouble();
+        System.out.print("Digite o Prazo: ");
+        Prazo = entrada.nextInt();
+
+
+        //Cálculo do montante
+        Montante = Capital * Math.pow((1 + (Taxa / 100)), Prazo);
+
+        //Cálculo dos juros
+        Juros = Montante - Capital;
+
+       
+        
+
+
     }
 }

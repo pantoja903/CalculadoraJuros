@@ -32,6 +32,7 @@ public class CalculadoraJurosSimples {
             }
             
             if(escolha == 1) {
+                
                 // Calcula os juros
                 System.out.print("Digite o capital inicial: ");
                 capital = scanner.nextDouble();
@@ -46,6 +47,7 @@ public class CalculadoraJurosSimples {
                 System.out.println("Os juros são: " + juros);
             }
             else if(escolha == 2) {
+
                 // Calcula o capital inicial
                 System.out.print("Digite os juros: ");
                 juros = scanner.nextDouble();
